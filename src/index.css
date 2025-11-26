@@ -9,8 +9,15 @@
   line-height: 1.5;
   font-weight: 400;
   
-  color: #1a1a1a;
-  background-color: #ffffff;
+  /* Brand Colors */
+  --primary: #4A110E; /* Oxblood Red */
+  --accent-warm: #C7A27A; /* Aged Saddle Tan */
+  --accent-cool: #1C2A39; /* Frontier Midnight Blue */
+  --white: #FFFFFF;
+  --charcoal: #2B2B2B;
+  
+  color: var(--charcoal);
+  background-color: var(--white);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,10 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 a {

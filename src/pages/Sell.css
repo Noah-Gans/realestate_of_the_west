@@ -1,0 +1,232 @@
+.sell-page {
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+.page-header {
+  background: linear-gradient(135deg, #1C2A39 0%, #4A110E 100%);
+  color: #FFFFFF;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.page-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.sell-content {
+  padding: 4rem 0;
+  background: #FFFFFF;
+}
+
+.sell-intro {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sell-intro h2 {
+  font-size: 2.5rem;
+  color: #1C2A39;
+  margin-bottom: 1rem;
+}
+
+.sell-intro p {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.guide-section {
+  margin-bottom: 5rem;
+}
+
+.guide-card {
+  background: #F8F9FA;
+  border-radius: 12px;
+  padding: 3rem;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.guide-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.guide-card h3 {
+  font-size: 1.75rem;
+  color: #1C2A39;
+  margin-bottom: 1rem;
+}
+
+.guide-card p {
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: #4A110E;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.download-btn:hover {
+  background: #1C2A39;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(74, 17, 14, 0.3);
+}
+
+.selling-process {
+  margin-bottom: 5rem;
+}
+
+.selling-process h2 {
+  font-size: 2.5rem;
+  color: #1C2A39;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.step {
+  background: #FFFFFF;
+  border: 2px solid #E0E0E0;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.step:hover {
+  border-color: #C7A27A;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+  width: 60px;
+  height: 60px;
+  background: #4A110E;
+  color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 auto 1.5rem;
+}
+
+.step h3 {
+  font-size: 1.3rem;
+  color: #1C2A39;
+  margin-bottom: 1rem;
+}
+
+.step p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.contact-section {
+  background: #F8F9FA;
+  padding: 4rem 2rem;
+  border-radius: 12px;
+  margin-top: 4rem;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: #1C2A39;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact-section > p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2.5rem;
+  font-size: 1.1rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #1C2A39;
+  font-weight: 600;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.875rem;
+  border: 2px solid #E0E0E0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #4A110E;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 1rem;
+  background: #4A110E;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.submit-btn:hover {
+  background: #1C2A39;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(74, 17, 14, 0.3);
+}
+
+@media (max-width: 768px) {
+  .page-header h1 {
+    font-size: 2rem;
+  }
+
+  .process-steps {
+    grid-template-columns: 1fr;
+  }
+}
+
